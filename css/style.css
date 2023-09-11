@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/vazir/Vazir-Black-FD.eot');
+    src: url('../fonts/vazir/Vazir-Black-FD.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/vazir/Vazir-Black-FD.woff2') format('woff2'),
+    url('../fonts/vazir/Vazir-Black-FD.woff') format('woff'),
+    url('../fonts/vazir/Vazir-Black-FD.ttf') format('truetype'),
+    url('../fonts/vazir/Vazir-Black-FD.svg#Vazir-Black-FD') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'shabnam';
+    src: url('../fonts/shabnam/Shabnam-Bold-FD.eot');
+    src: url('../fonts/shabnam/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/shabnam/Shabnam-Bold-FD.woff2') format('woff2'),
+    url('../fonts/shabnam/Shabnam-Bold-FD.woff') format('woff'),
+    url('../fonts/shabnam/Shabnam-Bold-FD.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'vazir', serif;
+    overflow-x: hidden ;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+body a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.adv {
+    width: 100%;
+    min-height: 80px;
+}
+
+.img-logo {
+    height: 15vh;
+    width: 15vh;
+}
+.primary-shadow {
+    box-shadow: 8px 4px 13px #0d6efd;
+}
+.service-image {
+    width: 100px !important;
+    height: 100px !important;
+}
+.flag-img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.banner-links{
+    background-image: linear-gradient(to right, rgba(180, 4, 225, 0.81), rgba(69, 53, 255, 0.61));
+}
+.shadow-pr {
+    box-shadow: 4px 4px 4px #ccc;
+}
